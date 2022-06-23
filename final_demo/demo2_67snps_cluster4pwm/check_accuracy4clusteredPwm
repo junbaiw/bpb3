@@ -1,0 +1,20 @@
+#!/bin/bash
+
+topN=$1
+echo "Results of clustered PWMs"
+bpb3 check_accuracy4cluster --in_cluster_out_path ../../final_demo_data/demo2_67snps_cluster4pwm/ \
+	--in_bpb3_ranking_path ../../final_demo_data/demo2_67snps_cluster4pwm/demo2_67snps_cluster4pwm/foreground/test_seq/rankings/ \
+	--in_fileString4clustered_pwm abc4pwm_quality_assessed_out_seed5 \
+	--in_fileString4uncertain_pwm abc4pwm_uncertain_pwms \
+	--in_topRank_cutoff ${topN}
+printf "\n\n"
+
+#bpb3 check_accuracy --in_bpb3_ranking_path ../../data/test_67snps/out/foreground/test_seq/rankings \
+#	--in_topRank_cutoff ${topN}
+
+#printf "\n\n"
+
+echo "Results of selected PWMs from clustered PWMs"
+bpb3 check_accuracy --in_bpb3_ranking_path ../../final_demo_data/demo2_67snps_cluster4pwm/selected_pwm_from_cluster4rank_top20/new_test_sep/rankings/ \
+        --in_topRank_cutoff ${topN}
+

@@ -1,0 +1,28 @@
+#!/bin/csh
+
+#Job name:
+#SBATCH --job-name=demo5-bpb3-flC
+#
+# Project:
+#SBATCH --account=nn4605k
+#
+# Wall clock limit:
+#SBATCH --time=12:00:00
+#
+# Max memory usage:
+#SBATCH --mem-per-cpu=12G 
+##--partition=bigmem
+#
+# Number of cores:
+#SBATCH --cpus-per-task=12
+
+
+#run fl_cohort demo with  command lines - first level analysis with clustered PWMs from abc4pwm
+python run_clusterPWM_cmd_fl.py
+
+#run fl_cohort demo with command lines - second level analysis with selected PWMs of top ranked TFs in the first level analysis
+python run_selected_pwms_from_clusterPWM_cmd_fl.py
+
+
+
+

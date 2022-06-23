@@ -1,0 +1,19 @@
+BayesPI-BAR3 : 
+Type "python setup.py install" to install bpb3  package on your local machine.
+
+final demo and data in folder: 
+final_demo, final_demo_data
+
+Reference papers:
+1) https://academic.oup.com/nar/article/43/21/e147/2468103?login=false
+2) https://www.nature.com/articles/s41598-017-07226-4
+3) https://www.frontiersin.org/articles/10.3389/fgene.2019.00282/full
+4) https://www.sciencedirect.com/science/article/pii/S2001037022000976
+
+Notes:
+1) Demo1 and demo2 were used in papers 1 and 3.
+2) Demo3, demo4, demo5, and demo6 were used in papers 2 and 3.
+3) Demo7 was similar to the calculation in paper 4, but the 14 FL samples were replaced by an independent FL cohort from papers 2 and 3.
+4) Under final_demo_data, the pwm folder contains 1772 human pwms that were used in papers 1, 2, 3, and 4.
+
+

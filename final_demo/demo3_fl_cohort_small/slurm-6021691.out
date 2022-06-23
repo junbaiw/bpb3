@@ -1,0 +1,64 @@
+Starting job 6021691 on c10-6 at Thu Jun 23 16:04:52 CEST 2022
+
+T-test
+Export at  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/regions.bed
+902 regions of interest are selected in file /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/regions.bed
+11 patients in the dataset
+Sorting mutations...
+Computing blocks...
+Patient list:
+[ 0 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52653/icgc_mutations_on_18.tsv : 182 mutations total ->
+18 mutations selected in regions ->
+18 mutations in 2 blocks
+[ 1 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52685/icgc_mutations_on_18.tsv : 440 mutations total ->
+31 mutations selected in regions ->
+27 mutations in 2 blocks
+[ 2 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52681/icgc_mutations_on_18.tsv : 434 mutations total ->
+46 mutations selected in regions ->
+44 mutations in 2 blocks
+[ 3 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52676/icgc_mutations_on_18.tsv : 45 mutations total ->
+4 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 4 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO27859/icgc_mutations_on_18.tsv : 203 mutations total ->
+7 mutations selected in regions ->
+7 mutations in 2 blocks
+[ 5 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52689/icgc_mutations_on_18.tsv : 343 mutations total ->
+10 mutations selected in regions ->
+10 mutations in 2 blocks
+[ 6 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52677/icgc_mutations_on_18.tsv : 257 mutations total ->
+18 mutations selected in regions ->
+17 mutations in 2 blocks
+[ 7 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52680/icgc_mutations_on_18.tsv : 49 mutations total ->
+0 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 8 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52656/icgc_mutations_on_18.tsv : 149 mutations total ->
+12 mutations selected in regions ->
+11 mutations in 1 blocks
+[ 9 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52669/icgc_mutations_on_18.tsv : 191 mutations total ->
+14 mutations selected in regions ->
+11 mutations in 2 blocks
+[ 10 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/../patient_data/DO52694/icgc_mutations_on_18.tsv : 184 mutations total ->
+17 mutations selected in regions ->
+16 mutations in 2 blocks
+Total loaded mutations: 2477
+, total mutations selected in regions: 177
+, total mutations in blocks: 161
+2 mutation blocks (ordered by number of patients):
+block 1 @ 18 : 60987833 - 60988302
+[ BCL2;-;up1000;down1000 ]
+, 470 bp, 102 mutations ,
+9 patients
+block 0 @ 18 : 60986372 - 60987028
+[ BCL2;-;up1000;down1000 ]
+, 657 bp, 59 mutations ,
+8 patients
+Read , /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/mussd_blocks/blocks_summary.tsv
+No P-value correction is applied in high mutation blocks test
+Calculating dbA values for 8 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/mussd_blocks/block_0_18_60986372_60987028_ref.fasta and 1772 PWMs in ../../final_demo_data/pwm using 10000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Calculating dbA values for 8 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo3_fl_cohort_small/out/mussd_blocks/block_0_18_60986372_60987028_alt.fasta and 1772 PWMs in ../../final_demo_data/pwm using 10000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Running 21264 jobs in 10 parallel processes
+Collecting dbA values...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...

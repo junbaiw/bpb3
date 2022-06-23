@@ -1,0 +1,23 @@
+#!/bin/csh
+
+#Job name:
+#SBATCH --job-name=demo2-bpb3-clust
+#
+# Project:
+#SBATCH --account=nn4605k
+#
+# Wall clock limit:
+#SBATCH --time=12:00:00
+#
+# Max memory usage:
+#SBATCH --mem-per-cpu=10G --partition=bigmem
+#
+# Number of cores:
+#SBATCH --cpus-per-task=12
+
+
+#run 67 snp demos with abc4pwm clustered PWMs
+python bpb3_clustered_pwms.py
+
+
+

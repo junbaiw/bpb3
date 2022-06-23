@@ -1,0 +1,7 @@
+--use_cores
+10
+--max_nodes
+10
+--use_slurm
+--slurm_account
+nn4605k

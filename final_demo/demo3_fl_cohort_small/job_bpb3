@@ -1,0 +1,24 @@
+#!/bin/csh
+
+#Job name:
+#SBATCH --job-name=demo3-bpb3-fl
+#
+# Project:
+#SBATCH --account=nn4605k
+#
+# Wall clock limit:
+#SBATCH --time=12:00:00
+#
+# Max memory usage:
+#SBATCH --mem-per-cpu=12G 
+###--partition=bigmem
+#
+# Number of cores:
+#SBATCH --cpus-per-task=12
+
+
+#run fl cohort demo by using pwm with pipeline configure file
+bpb3 run_pipeline --import_bpb3_config bpb3_config.py
+
+
+

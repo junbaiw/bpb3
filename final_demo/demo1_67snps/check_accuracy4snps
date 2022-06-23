@@ -1,0 +1,21 @@
+#!/bin/bash
+
+topN=$1
+
+#bpb3 check_accuracy4cluster --in_cluster_out_path ../data/out/sep8_run1 \
+#	--in_bpb3_ranking_path ../data/out/sep8_run1/test_67snps/foreground/test_seq/rankings/ \
+#	--in_fileString4clustered_pwm quality_assessed_out_seed5 \
+#	 --in_topRank_cutoff ${topN}
+#printf "\n\n"
+
+#bpb3 check_accuracy --skip_firstRow_in_ranking --in_bpb3_ranking_path ../../data/test_67snps/out_old/foreground/test_seq/rankings \
+#	--in_topRank_cutoff ${topN}
+
+bpb3 check_accuracy --in_bpb3_ranking_path ../../final_demo_data/demo1_67snps/out/foreground/test_seq/rankings \
+	--in_topRank_cutoff ${topN}
+
+
+#printf "\n\n"
+#bpb3 check_accuracy --in_bpb3_ranking_path ../data/out/sep8_run1/selected_pwm_from_cluster4rank_top20/new_test_sep/out/ \
+#        --in_topRank_cutoff ${topN}
+

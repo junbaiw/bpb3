@@ -1,0 +1,59 @@
+Starting job 6021960 on c11-21 at Thu Jun 23 16:18:17 CEST 2022
+
+T-test
+5720 regions of interest are selected in file ../../final_demo_data/demo7_mr_enhancers/in/dmr_intersect_enhancer_regions_chr18noChr_5kb_flank.tsv
+11 patients in the dataset
+Sorting mutations...
+Computing blocks...
+Patient list:
+[ 0 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52653/icgc_mutations_on_18.tsv : 182 mutations total ->
+98 mutations selected in regions ->
+27 mutations in 3 blocks
+[ 1 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52685/icgc_mutations_on_18.tsv : 440 mutations total ->
+222 mutations selected in regions ->
+53 mutations in 2 blocks
+[ 2 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52681/icgc_mutations_on_18.tsv : 434 mutations total ->
+223 mutations selected in regions ->
+67 mutations in 3 blocks
+[ 3 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52676/icgc_mutations_on_18.tsv : 45 mutations total ->
+16 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 4 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO27859/icgc_mutations_on_18.tsv : 203 mutations total ->
+94 mutations selected in regions ->
+11 mutations in 2 blocks
+[ 5 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52689/icgc_mutations_on_18.tsv : 343 mutations total ->
+154 mutations selected in regions ->
+23 mutations in 2 blocks
+[ 6 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52677/icgc_mutations_on_18.tsv : 257 mutations total ->
+143 mutations selected in regions ->
+39 mutations in 3 blocks
+[ 7 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52680/icgc_mutations_on_18.tsv : 49 mutations total ->
+22 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 8 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52656/icgc_mutations_on_18.tsv : 149 mutations total ->
+79 mutations selected in regions ->
+16 mutations in 2 blocks
+[ 9 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52669/icgc_mutations_on_18.tsv : 191 mutations total ->
+97 mutations selected in regions ->
+32 mutations in 3 blocks
+[ 10 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/../patient_data/DO52694/icgc_mutations_on_18.tsv : 184 mutations total ->
+88 mutations selected in regions ->
+32 mutations in 2 blocks
+Total loaded mutations: 2477
+, total mutations selected in regions: 1236
+, total mutations in blocks: 300
+3 mutation blocks (ordered by number of patients):
+block 2 @ 18 : 60987833 - 60988552
+[ chr18:mr22253:hypo:D ]
+, 720 bp, 118 mutations ,
+9 patients
+block 1 @ 18 : 60984827 - 60987028
+[ chr18:mr22251:hyper:D, chr18:mr22252:hypo:D, chr18:mr22253:hypo:D ]
+, 2202 bp, 160 mutations ,
+9 patients
+block 0 @ 18 : 60983893 - 60984144
+[ chr18:mr22250:hyper:D, chr18:mr22251:hyper:D, chr18:mr22252:hypo:D, chr18:mr22253:hypo:D ]
+, 252 bp, 22 mutations ,
+4 patients
+Read , /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo7_mr_enhancers/out/mussd_blocks/blocks_summary.tsv
+Adjust P-values by Bonferroni correction in high mutation blocks test

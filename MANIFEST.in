@@ -1,0 +1,8 @@
+include bpb3/bin/Linux/bayesPI
+include bpb3/bin/Linux/bayesPI_affinity
+include bpb3/bin/Linux/bayesPI_chemicalPotential
+include bpb3/bin/Mac/bayesPI
+include bpb3/bin/Mac/bayesPI_affinity
+include bpb3/bin/Mac/bayesPI_chemicalPotential
+
+

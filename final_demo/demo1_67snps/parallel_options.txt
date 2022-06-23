@@ -1,0 +1,4 @@
+--use_cores
+10
+--max_nodes
+10

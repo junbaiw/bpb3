@@ -1,0 +1,1 @@
+../demo2_67snps_cluster4pwm/parallel_options.txt

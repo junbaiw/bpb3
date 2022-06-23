@@ -1,0 +1,513 @@
+Starting job 6021946 on c11-20 at Thu Jun 23 16:17:18 CEST 2022
+
+Copied  230  from  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../abc4pwm_quality_assessed_out_seed5  to  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/tmp_pwm
+Copied  506  from  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../abc4pwm_uncertain_pwms  to  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/tmp_pwm
+T-test
+Warning: duplicate genes in the input GTF file: IER3IP1
+Export at  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/regions.bed
+581 regions of interest are selected in file /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/regions.bed
+53 patients in the dataset
+Sorting mutations...
+Computing blocks...
+Patient list:
+[ 0 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222738/icgc_mutations_on_5.tsv : 305 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 1 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218854/icgc_mutations_on_5.tsv : 269 mutations total ->
+2 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 2 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222504/icgc_mutations_on_5.tsv : 6697 mutations total ->
+10 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 3 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218866/icgc_mutations_on_5.tsv : 468 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 4 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218847/icgc_mutations_on_5.tsv : 5270 mutations total ->
+23 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 5 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222721/icgc_mutations_on_5.tsv : 3646 mutations total ->
+10 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 6 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220875/icgc_mutations_on_5.tsv : 19696 mutations total ->
+46 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 7 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218902/icgc_mutations_on_5.tsv : 332 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 8 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220902/icgc_mutations_on_5.tsv : 15632 mutations total ->
+50 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 9 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218840/icgc_mutations_on_5.tsv : 4979 mutations total ->
+14 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 10 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220872/icgc_mutations_on_5.tsv : 15645 mutations total ->
+43 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 11 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220853/icgc_mutations_on_5.tsv : 3583 mutations total ->
+11 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 12 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO219878/icgc_mutations_on_5.tsv : 27321 mutations total ->
+79 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 13 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218857/icgc_mutations_on_5.tsv : 1177 mutations total ->
+11 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 14 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220898/icgc_mutations_on_5.tsv : 2579 mutations total ->
+13 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 15 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220906/icgc_mutations_on_5.tsv : 33128 mutations total ->
+119 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 16 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220844/icgc_mutations_on_5.tsv : 357 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 17 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218876/icgc_mutations_on_5.tsv : 316 mutations total ->
+4 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 18 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222413/icgc_mutations_on_5.tsv : 3835 mutations total ->
+17 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 19 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222683/icgc_mutations_on_5.tsv : 9005 mutations total ->
+32 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 20 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222368/icgc_mutations_on_5.tsv : 263 mutations total ->
+4 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 21 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220901/icgc_mutations_on_5.tsv : 5958 mutations total ->
+15 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 22 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222820/icgc_mutations_on_5.tsv : 242 mutations total ->
+0 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 23 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222494/icgc_mutations_on_5.tsv : 12482 mutations total ->
+32 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 24 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220850/icgc_mutations_on_5.tsv : 1289 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 25 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218886/icgc_mutations_on_5.tsv : 1608 mutations total ->
+12 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 26 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220868/icgc_mutations_on_5.tsv : 453 mutations total ->
+2 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 27 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO219873/icgc_mutations_on_5.tsv : 2664 mutations total ->
+16 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 28 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220909/icgc_mutations_on_5.tsv : 4093 mutations total ->
+7 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 29 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220873/icgc_mutations_on_5.tsv : 8092 mutations total ->
+25 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 30 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218841/icgc_mutations_on_5.tsv : 581 mutations total ->
+0 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 31 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220897/icgc_mutations_on_5.tsv : 1230 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 32 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220903/icgc_mutations_on_5.tsv : 24843 mutations total ->
+67 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 33 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222554/icgc_mutations_on_5.tsv : 1836 mutations total ->
+3 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 34 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222411/icgc_mutations_on_5.tsv : 1643 mutations total ->
+4 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 35 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222615/icgc_mutations_on_5.tsv : 4880 mutations total ->
+11 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 36 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218890/icgc_mutations_on_5.tsv : 652 mutations total ->
+7 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 37 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220846/icgc_mutations_on_5.tsv : 765 mutations total ->
+3 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 38 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218874/icgc_mutations_on_5.tsv : 11180 mutations total ->
+34 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 39 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220883/icgc_mutations_on_5.tsv : 4126 mutations total ->
+13 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 40 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220889/icgc_mutations_on_5.tsv : 4519 mutations total ->
+14 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 41 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO228018/icgc_mutations_on_5.tsv : 352 mutations total ->
+2 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 42 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO228012/icgc_mutations_on_5.tsv : 3721 mutations total ->
+16 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 43 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222914/icgc_mutations_on_5.tsv : 379 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 44 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220887/icgc_mutations_on_5.tsv : 3654 mutations total ->
+15 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 45 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222832/icgc_mutations_on_5.tsv : 117 mutations total ->
+0 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 46 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220848/icgc_mutations_on_5.tsv : 234 mutations total ->
+2 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 47 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222557/icgc_mutations_on_5.tsv : 7936 mutations total ->
+19 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 48 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220845/icgc_mutations_on_5.tsv : 230 mutations total ->
+1 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 49 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO218856/icgc_mutations_on_5.tsv : 3883 mutations total ->
+9 mutations selected in regions ->
+1 mutations in 1 blocks
+[ 50 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO220880/icgc_mutations_on_5.tsv : 5746 mutations total ->
+21 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 51 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO228015/icgc_mutations_on_5.tsv : 427 mutations total ->
+2 mutations selected in regions ->
+0 mutations in 0 blocks
+[ 52 ] /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../patient_data/DO222498/icgc_mutations_on_5.tsv : 3026 mutations total ->
+10 mutations selected in regions ->
+0 mutations in 0 blocks
+Total loaded mutations: 277344
+, total mutations selected in regions: 857
+, total mutations in blocks: 15
+1 mutation blocks (ordered by number of patients):
+block 0 @ 5 : 1295205 - 1295250
+[ TERT;-;up2000;down100 ]
+, 46 bp, 15 mutations ,
+15 patients
+Read , /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/mussd_blocks/blocks_summary.tsv
+Adjust P-values by Bonferroni correction in high mutation blocks test
+Calculating dbA values for 15 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/mussd_blocks/block_0_5_1295205_1295250_ref.fasta and 736 PWMs in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../tmp_pwm using 10000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Calculating dbA values for 15 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/mussd_blocks/block_0_5_1295205_1295250_alt.fasta and 736 PWMs in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../tmp_pwm using 10000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Running 8832 jobs in 10 parallel processes
+Collecting dbA values...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Background block size will be equal to median significant block size: 94
+Mutation count distribution:
+	 number of mutations 	 probability
+	 1 	 1.0
+36 PWMs are chosen for background model based on foreground rankings (max rank is 10 )
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/pwm_for_background /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/../tmp_pwm
+Selecting random blocks of 94 bp as background
+Taking blocks from /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/regions.bed where there is at least one background mutation
+1000 background blocks selected
+Extracting reference FASTA for selected random blocks
+1000 background blocks with known nucleotides
+Applying supplied background mutations to reference FASTA to make alternate FASTA
+Running BayesPI-BAR to compute background affinity changes. This will take a while...
+genome <_io.TextIOWrapper name='/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/genome_data/hg19/human_g1k_v37_decoy.fasta' mode='r' encoding='UTF-8'>
+regions <_io.TextIOWrapper name='/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/regions.bed' mode='r' encoding='UTF-8'>
+background_mutations <_io.TextIOWrapper name='/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/mussd_blocks/mutations_in_regions.tsv' mode='r' encoding='UTF-8'>
+Calculating dbA values for 1000 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/randomly_selected_blocks_ref.fasta and 36 PWMs in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/pwm_for_background using 1000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Calculating dbA values for 1000 sequences in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/randomly_selected_blocks_alt.fasta and 36 PWMs in /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/pwm_for_background using 1000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Running 432 jobs in 10 parallel processes
+Collecting dbA values...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Computing PWM rankings for each variant...
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/ddba/ddba_integrated_using_mean_ddba.tsv : 1000 mutations,  36 PWMs
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/ddba/ddba_integrated_using_mean_ddba.tsv : 15 mutations,  736 PWMs
+736 total PWMs
+Positive PWMs at 0.05 bonferroni significance:
+	 abc4pwm_uncertain_pwms~1_ETS_known6_from_GABP_1_from_GABP_transfac_M00341-Tryptophan.mlp 	bonferroni p: 6.945685238131073e-61 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~4_NFE2L2_1_from_Nrf-2_transfac_M00108-bZIP.mlp 	bonferroni p: 3.142987358554262e-48 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~0_HINFP_2_from_HINFP1_jolma_full_M16-C2H2_ZF.mlp 	bonferroni p: 3.5631092330149903e-47 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~1_ETV5_1_from_ETV5_jolma_DBD_M106-Tryptophan.mlp 	bonferroni p: 7.180659877108394e-32 	#cases: 14 / 15
+	 abc4pwm_quality_assessed_out_seed5~Tryptophan~out~11~repres~11_rep.mlp 	bonferroni p: 1.0894205547547532e-21 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~6_CACBP_1_from_CAC-binding-protein_transfac_M00720-Unknown.mlp 	bonferroni p: 1.02546400905484e-20 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~3_ETS_known7_from_ELK1_3_from_ELK1_jaspar_MA0028.1-Tryptophan.mlp 	bonferroni p: 4.9904460496088324e-20 	#cases: 14 / 15
+	 abc4pwm_quality_assessed_out_seed5~Tryptophan~out~3~repres~3_rep.mlp 	bonferroni p: 3.2657953010190567e-19 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~0_ELF5_1_from_ELF5_jaspar_MA0136.1-Tryptophan.mlp 	bonferroni p: 7.611188245034236e-18 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~SP1_known1_from_SP1_1_from_Sp1_transfac_M00008-NonO_domain_factors.mlp 	bonferroni p: 9.673972928791537e-18 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~3_STAT_known7_from_STAT1_2_from_STAT1_transfac_M00492-STAT.mlp 	bonferroni p: 1.0023060855044762e-17 	#cases: 14 / 15
+	 abc4pwm_quality_assessed_out_seed5~Tryptophan~out~4~repres~4_rep.mlp 	bonferroni p: 1.6319946266243857e-17 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~14_MAZ_1_from_MAZ_transfac_M00649-C2H2_ZF.mlp 	bonferroni p: 3.710873750561869e-16 	#cases: 14 / 15
+	 abc4pwm_quality_assessed_out_seed5~STAT~out~3~repres~3_rep.mlp 	bonferroni p: 2.6709133869959428e-15 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~5_SPI1_known2_from_SPI1_2_from_SPI1_jaspar_MA0080.2-Tryptophan.mlp 	bonferroni p: 4.117443149630334e-15 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~7_ETS_known8_from_ETS1_3_from_ETS1_jaspar_MA0098.1-Tryptophan.mlp 	bonferroni p: 8.855487440677286e-15 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~SP1_known8_from_SP1_7_from_SP1_jolma_DBD_M29-NonO_domain_factors.mlp 	bonferroni p: 9.006067452819783e-14 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~SP1_known4_from_SP1_3_from_Sp1_transfac_M00931-NonO_domain_factors.mlp 	bonferroni p: 6.880696777439031e-12 	#cases: 14 / 15
+	 abc4pwm_uncertain_pwms~SP1_known6_from_SP1_5_from_Sp1_transfac_M00933-NonO_domain_factors.mlp 	bonferroni p: 1.9547504848220878e-10 	#cases: 14 / 15
+Negative PWMs at 0.05 bonferroni significance:
+	 abc4pwm_uncertain_pwms~6_E2F_known21_from_E2F1_19_from_E2F-1_transfac_M00940-Forkhead.mlp 	bonferroni p: 6.192732420624218e-57 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~6_HOXD9_3_from_Hoxd9_jolma_DBD_M561-Homeodomain.mlp 	bonferroni p: 3.0472516069455506e-29 	#cases: 15 / 15
+	 abc4pwm_quality_assessed_out_seed5~Forkhead~out~10~repres~10_rep.mlp 	bonferroni p: 2.295685378641376e-25 	#cases: 15 / 15
+	 abc4pwm_quality_assessed_out_seed5~SMAD~out~2~repres~2_rep.mlp 	bonferroni p: 1.1950872812915168e-23 	#cases: 15 / 15
+	 abc4pwm_quality_assessed_out_seed5~bHLH~out~0~repres~0_rep.mlp 	bonferroni p: 1.756318464013311e-18 	#cases: 14 / 15
+	 abc4pwm_quality_assessed_out_seed5~Tryptophan~out~6~repres~6_rep.mlp 	bonferroni p: 5.527754448279602e-18 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~HMGA1_1_from_HMG-IY_transfac_M00750-A.T_hook_factors.mlp 	bonferroni p: 8.854012405997552e-18 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~16_FOXJ3_2_from_FOXJ3_jolma_DBD_M419-Forkhead.mlp 	bonferroni p: 1.70397186572241e-14 	#cases: 15 / 15
+	 abc4pwm_quality_assessed_out_seed5~bHLH~out~4~repres~4_rep.mlp 	bonferroni p: 7.815611012591058e-14 	#cases: 15 / 15
+	 abc4pwm_uncertain_pwms~1_SRY_1_from_SRY_transfac_M00148-HMG.mlp 	bonferroni p: 6.634147283607254e-13 	#cases: 15 / 15
+	 abc4pwm_quality_assessed_out_seed5~Heat_shock_factors~out~1~repres~1_rep.mlp 	bonferroni p: 6.187830373547832e-05 	#cases: 11 / 15
+For the following PWMs, the background data was not found, so they were not tested: abc4pwm_quality_assessed_out_seed5~C2H2_ZF~out~12~repres~12_rep.mlp, abc4pwm_quality_assessed_out_seed5~C2H2_ZF~out~23~repres~23_rep.mlp, abc4pwm_quality_assessed_out_seed5~Forkhead~out~15~repres~15_rep.mlp, abc4pwm_quality_assessed_out_seed5~Homeodomain~out~17~repres~17_rep.mlp, abc4pwm_quality_assessed_out_seed5~Nuclear_receptor~out~2~repres~2_rep.mlp, abc4pwm_quality_assessed_out_seed5~Nuclear_receptor~out~5~repres~5_rep.mlp, abc4pwm_quality_assessed_out_seed5~RHR~out~3~repres~3_rep.mlp, abc4pwm_quality_assessed_out_seed5~STAT~out~0~repres~0_rep.mlp, abc4pwm_quality_assessed_out_seed5~Tryptophan~out~0~repres~0_rep.mlp, abc4pwm_quality_assessed_out_seed5~Tryptophan~out~1~repres~1_rep.mlp, abc4pwm_quality_assessed_out_seed5~Tryptophan~out~2~repres~2_rep.mlp, abc4pwm_quality_assessed_out_seed5~Tryptophan~out~8~repres~8_rep.mlp, abc4pwm_uncertain_pwms~0_SPDEF_1_from_Spdef_bulyk_sc09-primary-Tryptophan.mlp, abc4pwm_uncertain_pwms~10_ZNF35_1_from_Zfp105_bulyk_sc09-primary-C2H2_ZF.mlp, abc4pwm_uncertain_pwms~15_ERF_1_from_ERF_jolma_DBD_M93-C2H2_ZF.mlp, abc4pwm_uncertain_pwms~1_ETS_known3_from_ETS1_1_from_c-Ets-1(p54)_transfac_M00032-Tryptophan.mlp, abc4pwm_uncertain_pwms~1_ETV6_2_from_ETV6_jolma_full_M108-Tryptophan.mlp, abc4pwm_uncertain_pwms~22_SP4_2_from_SP4_jolma_full_M31-C2H2_ZF.mlp, abc4pwm_uncertain_pwms~27_HOXA7_3_from_Hoxa7_bulyk_cell08-3750.1-Homeodomain.mlp, abc4pwm_uncertain_pwms~28_DBX1_1_from_Dbx1_bulyk_cell08-3486.1-Homeodomain.mlp, abc4pwm_uncertain_pwms~28_HOXC6_1_from_Hoxc6_bulyk_cell08-3954.2-Homeodomain.mlp, abc4pwm_uncertain_pwms~28_TLX2_2_from_Tlx2_bulyk_cell08-3498.2-Homeodomain.mlp, abc4pwm_uncertain_pwms~2_SPDEF_5_from_SPDEF_jolma_full_M120-Tryptophan.mlp, abc4pwm_uncertain_pwms~3_NR1H_3_from_LXR,-PXR,-CAR,-COUP,-RAR_transfac_M00965-Nuclear_receptor.mlp, abc4pwm_uncertain_pwms~41_ISL2_1_from_Isl2_bulyk_cell08-3430.1-Homeodomain.mlp, abc4pwm_uncertain_pwms~AIRE_1_from_AIRE_transfac_M00999-SAND.mlp, abc4pwm_uncertain_pwms~SP100_1_from_Sp100_bulyk_sc09-primary-SAND.mlp, abc4pwm_uncertain_pwms~TEAD1_3_from_TEAD1_jolma_full_M286-TEA.mlp, abc4pwm_uncertain_pwms~TFCP2L1_1_from_Tcfcp2l1_jaspar_MA0145.1-Grainyhead.mlp, abc4pwm_uncertain_pwms~TFCP2_3_from_CP2orLBP-1corLSF_transfac_M00947-Grainyhead.mlp
+Unknown gene tag: Tryptophan , file: abc4pwm_quality_assessed_out_seed5~Tryptophan~out~11~repres~11_rep.mlp
+Unknown gene tag: CACBP , file: abc4pwm_uncertain_pwms~6_CACBP_1_from_CAC-binding-protein_transfac_M00720-Unknown.mlp
+Unknown gene tag: Tryptophan , file: abc4pwm_quality_assessed_out_seed5~Tryptophan~out~3~repres~3_rep.mlp
+Unknown gene tag: Tryptophan , file: abc4pwm_quality_assessed_out_seed5~Tryptophan~out~4~repres~4_rep.mlp
+Unknown gene tag: Forkhead , file: abc4pwm_quality_assessed_out_seed5~Forkhead~out~10~repres~10_rep.mlp
+Unknown gene tag: bHLH , file: abc4pwm_quality_assessed_out_seed5~bHLH~out~0~repres~0_rep.mlp
+Unknown gene tag: Tryptophan , file: abc4pwm_quality_assessed_out_seed5~Tryptophan~out~6~repres~6_rep.mlp
+Unknown gene tag: 1 , file: abc4pwm_uncertain_pwms~HMGA1_1_from_HMG-IY_transfac_M00750-A.T_hook_factors.mlp
+Unknown gene tag: bHLH , file: abc4pwm_quality_assessed_out_seed5~bHLH~out~4~repres~4_rep.mlp
+Unknown gene tag: shock , file: abc4pwm_quality_assessed_out_seed5~Heat_shock_factors~out~1~repres~1_rep.mlp
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/ddba/ddba_integrated_using_mean_ddba.tsv : 1000 mutations,  36 PWMs
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/ddba/ddba_integrated_using_mean_ddba.tsv : 15 mutations,  736 PWMs
+2.9999999999999996
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250
+Remove temporary files in background output: 
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_alt/potential_-20/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/dba_ref/potential_-20/*0
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/background/bayespi_bar_result/parallel_tmp
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/pwm_for_background
+
+
+Remove temporary files in foreground output: 
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_alt/potential_-20/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/dba_ref/potential_-20/*0
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/foreground/block_0_5_1295205_1295250/parallel_tmp
+
+
+Done with clean temporary files
+Add path 
+ /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo/demo6_skin_cancer_small
+"import bpb3_clusterPWM_config_skin_cancer as bpb3_config"
+Log file: /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/out/demo6_skin_cancer_bpb3.log_1655993841.1298735
+block_0_5_1295205_1295250 :
+Filtering results by gene expression for block block_0_5_1295205_1295250 ...
+Select top  25  ranked TFs for calculation!
+Create project folder:  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm
+Create output folder:  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250
+Running 17076 jobs in 10 parallel processes
+['block_0_5_1295205_1295250_patient_13::5:1295179-1295274']
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Integrating delta-dbA values across chemical potentials using pca ...
+Computing PWM rankings for each variant...
+Create folder:  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/rankings
+Export all ranked results at:  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/rankings
+Create folder:  /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/ddba
+Create folder for selected PWMs from cluster4pwm,   ../../final_demo_data/demo6_skin_cancer_small/selected_pwm
+copied 150 pwm files
+Removing temporary files in cluster4pwm : /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250
+Background block size will be equal to median significant block size: 94
+Mutation count distribution:
+	 number of mutations 	 probability
+	 1 	 1.0
+53 PWMs are chosen for background model based on foreground rankings (max rank is 15 )
+../../final_demo_data/demo6_skin_cancer_small/pwm_for_background ../../final_demo_data/demo6_skin_cancer_small/selected_pwm
+Selecting random blocks of 94 bp as background
+Taking blocks from ../../final_demo_data/demo6_skin_cancer_small/out/regions.bed where there is at least one background mutation
+1000 background blocks selected
+Extracting reference FASTA for selected random blocks
+1000 background blocks with known nucleotides
+Applying supplied background mutations to reference FASTA to make alternate FASTA
+Running BayesPI-BAR to compute background affinity changes. This will take a while...
+genome <_io.TextIOWrapper name='/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/genome_data/hg19/human_g1k_v37_decoy.fasta' mode='r' encoding='UTF-8'>
+regions <_io.TextIOWrapper name='../../final_demo_data/demo6_skin_cancer_small/out/regions.bed' mode='r' encoding='UTF-8'>
+background_mutations <_io.TextIOWrapper name='../../final_demo_data/demo6_skin_cancer_small/out/mussd_blocks/mutations_in_regions.tsv' mode='r' encoding='UTF-8'>
+Calculating dbA values for 1000 sequences in ../../final_demo_data/demo6_skin_cancer_small/background/randomly_selected_blocks_ref.fasta and 53 PWMs in ../../final_demo_data/demo6_skin_cancer_small/pwm_for_background using 1000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Calculating dbA values for 1000 sequences in ../../final_demo_data/demo6_skin_cancer_small/background/randomly_selected_blocks_alt.fasta and 53 PWMs in ../../final_demo_data/demo6_skin_cancer_small/pwm_for_background using 1000 background iterations and 6 chemical potential(s): none, -10, -13, -15, -18, -20
+Running 636 jobs in 10 parallel processes
+Collecting dbA values...
+Calculating delta-dbA values...
+Integrating delta-dbA values across chemical potentials using mean_ddba ...
+Computing PWM rankings for each variant...
+../../final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/ddba/ddba_integrated_using_mean_ddba.tsv : 1000 mutations,  53 PWMs
+../../final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/ddba/ddba_integrated_using_mean_ddba.tsv : 15 mutations,  150 PWMs
+150 total PWMs
+Positive PWMs at 0.01 uncorrected pval significance:
+	 10_E2F_known19_from_E2F1_17_from_E2F-1_transfac_M00938-Forkhead.mlp 	uncorrected p: 2.1405079415910453e-69 	#cases: 15 / 15
+	 1_ETS_known6_from_GABP_1_from_GABP_transfac_M00341-Tryptophan.mlp 	uncorrected p: 9.43707233441722e-64 	#cases: 14 / 15
+	 4_NFE2L2_1_from_Nrf-2_transfac_M00108-bZIP.mlp 	uncorrected p: 4.2703632589052475e-51 	#cases: 15 / 15
+	 0_HINFP_2_from_HINFP1_jolma_full_M16-C2H2_ZF.mlp 	uncorrected p: 4.841181023118194e-50 	#cases: 15 / 15
+	 1_ETV5_1_from_ETV5_jolma_DBD_M106-Tryptophan.mlp 	uncorrected p: 9.75633135476684e-35 	#cases: 14 / 15
+	 6_CACBP_1_from_CAC-binding-protein_transfac_M00720-Unknown.mlp 	uncorrected p: 1.3932934905636413e-23 	#cases: 14 / 15
+	 2_ELF4_1_from_ELF4_jolma_full_M85-Tryptophan.mlp 	uncorrected p: 4.071794081127483e-23 	#cases: 10 / 15
+	 3_ETS_known7_from_ELK1_3_from_ELK1_jaspar_MA0028.1-Tryptophan.mlp 	uncorrected p: 6.780497350012e-23 	#cases: 14 / 15
+	 3_ELF5_2_from_ELF5_jolma_DBD_M86-Tryptophan.mlp 	uncorrected p: 2.0340310429723826e-22 	#cases: 14 / 15
+	 3_ELF5_3_from_ELF5_jolma_full_M87-Tryptophan.mlp 	uncorrected p: 4.49671623844278e-22 	#cases: 14 / 15
+	 3_ELF5_4_from_Elf5_jolma_DBD_M109-Tryptophan.mlp 	uncorrected p: 9.14758218824671e-22 	#cases: 14 / 15
+	 0_ELF5_1_from_ELF5_jaspar_MA0136.1-Tryptophan.mlp 	uncorrected p: 1.0341288376405212e-20 	#cases: 15 / 15
+	 SP1_known1_from_SP1_1_from_Sp1_transfac_M00008-NonO_domain_factors.mlp 	uncorrected p: 1.3143984957597197e-20 	#cases: 15 / 15
+	 3_STAT_known7_from_STAT1_2_from_STAT1_transfac_M00492-STAT.mlp 	uncorrected p: 1.361828920522386e-20 	#cases: 14 / 15
+	 3_STAT_known10_from_STAT1_3_from_STAT1_transfac_M00496-STAT.mlp 	uncorrected p: 7.951910856599087e-20 	#cases: 15 / 15
+	 14_MAZ_1_from_MAZ_transfac_M00649-C2H2_ZF.mlp 	uncorrected p: 5.041948030654714e-19 	#cases: 14 / 15
+	 3_ETS_1_from_Ets_transfac_M00771-Tryptophan.mlp 	uncorrected p: 2.227759894249818e-18 	#cases: 14 / 15
+	 3_STAT_known12_from_STAT4_1_from_STAT4_transfac_M00498-STAT.mlp 	uncorrected p: 2.5386774116525972e-18 	#cases: 14 / 15
+	 7_ETS_known8_from_ETS1_3_from_ETS1_jaspar_MA0098.1-Tryptophan.mlp 	uncorrected p: 1.2031912283528922e-17 	#cases: 14 / 15
+	 11_ETS_known9_from_GABPA_1_from_GABPA_jaspar_MA0062.2-Tryptophan.mlp 	uncorrected p: 2.5206282990237854e-17 	#cases: 10 / 15
+	 SP1_known8_from_SP1_7_from_SP1_jolma_DBD_M29-NonO_domain_factors.mlp 	uncorrected p: 1.2236504691331227e-16 	#cases: 14 / 15
+	 3_STAT_known13_from_STAT5A_4_from_STAT5A_transfac_M00499-STAT.mlp 	uncorrected p: 1.9159352899684577e-16 	#cases: 15 / 15
+	 4_ETS_2_from_Ets_transfac_M00971-Tryptophan.mlp 	uncorrected p: 3.508215206306315e-15 	#cases: 14 / 15
+	 SP1_known4_from_SP1_3_from_Sp1_transfac_M00931-NonO_domain_factors.mlp 	uncorrected p: 9.348772795433465e-15 	#cases: 14 / 15
+	 3_STAT_known14_from_STAT6_2_from_STAT6_transfac_M00500-STAT.mlp 	uncorrected p: 4.3618143110137445e-13 	#cases: 14 / 15
+	 SP1_known2_from_SP1_2_from_Sp1_transfac_M00196-NonO_domain_factors.mlp 	uncorrected p: 0.0011983560637806605 	#cases: 10 / 15
+	 SP1_known5_from_SP1_4_from_Sp1_transfac_M00932-NonO_domain_factors.mlp 	uncorrected p: 0.0017149309156916015 	#cases: 10 / 15
+	 5_SPI1_known2_from_SPI1_2_from_SPI1_jaspar_MA0080.2-Tryptophan.mlp 	uncorrected p: 0.001851408390489599 	#cases: 5 / 15
+	 3_STAT_known11_from_STAT3_2_from_STAT3_transfac_M00497-STAT.mlp 	uncorrected p: 0.002616544618003523 	#cases: 4 / 15
+Negative PWMs at 0.01 uncorrected pval significance:
+	 2_SMAD3_3_from_SMAD3_jolma_DBD_M161-SMAD.mlp 	uncorrected p: 3.654818374011407e-62 	#cases: 15 / 15
+	 6_E2F_known21_from_E2F1_19_from_E2F-1_transfac_M00940-Forkhead.mlp 	uncorrected p: 8.414038614978557e-60 	#cases: 15 / 15
+	 27_HOXA7_3_from_Hoxa7_bulyk_cell08-3750.1-Homeodomain.mlp 	uncorrected p: 3.2491378021058107e-32 	#cases: 14 / 15
+	 6_HOXD9_3_from_Hoxd9_jolma_DBD_M561-Homeodomain.mlp 	uncorrected p: 4.1402875094368894e-32 	#cases: 15 / 15
+	 28_HOXC6_1_from_Hoxc6_bulyk_cell08-3954.2-Homeodomain.mlp 	uncorrected p: 3.6807768801568863e-28 	#cases: 14 / 15
+	 6_IRF_known4_from_IRF7_1_from_IRF-7_transfac_M00453-Tryptophan.mlp 	uncorrected p: 7.423894305194403e-23 	#cases: 15 / 15
+	 1_HSF4_1_from_HSF4_jolma_DBD_M143-Heat_shock_factors.mlp 	uncorrected p: 2.7743502002688305e-21 	#cases: 11 / 15
+	 6_SPIB_1_from_SPIB_jaspar_MA0081.1-Tryptophan.mlp 	uncorrected p: 8.115294465662671e-21 	#cases: 15 / 15
+	 HMGA1_1_from_HMG-IY_transfac_M00750-A.T_hook_factors.mlp 	uncorrected p: 1.2029908160322761e-20 	#cases: 15 / 15
+	 1_HSF_known4_from_HSF1_4_from_HSF1_jolma_DBD_M140-Heat_shock_factors.mlp 	uncorrected p: 3.496597094130855e-18 	#cases: 11 / 15
+	 AIRE_1_from_AIRE_transfac_M00999-SAND.mlp 	uncorrected p: 1.1462268114455671e-17 	#cases: 10 / 15
+	 16_FOXJ3_2_from_FOXJ3_jolma_DBD_M419-Forkhead.mlp 	uncorrected p: 2.315179165383709e-17 	#cases: 15 / 15
+	 2_THRB_2_from_THRB_jolma_DBD_M729-Nuclear_receptor.mlp 	uncorrected p: 3.109626961362597e-16 	#cases: 10 / 15
+	 1_SRY_1_from_SRY_transfac_M00148-HMG.mlp 	uncorrected p: 9.013787070118551e-16 	#cases: 15 / 15
+	 22_SP4_2_from_SP4_jolma_full_M31-C2H2_ZF.mlp 	uncorrected p: 6.258114214572136e-08 	#cases: 5 / 15
+	 41_ISL2_1_from_Isl2_bulyk_cell08-3430.1-Homeodomain.mlp 	uncorrected p: 0.0022778388754498167 	#cases: 4 / 15
+For the following PWMs, the background data was not found, so they were not tested: 1_ETS_known18_from_GABPA_3_from_GABPA_jolma_full_M116-Tryptophan.mlp, 1_ETV1_1_from_ETV1_jolma_DBD_M102-Tryptophan.mlp, 1_ETV4_2_from_ETV4_jolma_DBD_M105-Tryptophan.mlp, 1_ETV6_2_from_ETV6_jolma_full_M108-Tryptophan.mlp, 1_FLI1_1_from_FLI1_jolma_DBD_M112-Tryptophan.mlp, 28_DBX1_1_from_Dbx1_bulyk_cell08-3486.1-Homeodomain.mlp, 28_TLX2_2_from_Tlx2_bulyk_cell08-3498.2-Homeodomain.mlp, 2_EHF_2_from_EHF_jolma_full_M80-Tryptophan.mlp, 8_ETS_known4_from_ETS1_2_from_c-Ets-1_transfac_M00339-Tryptophan.mlp, TEAD1_3_from_TEAD1_jolma_full_M286-TEA.mlp, TFCP2L1_1_from_Tcfcp2l1_jaspar_MA0145.1-Grainyhead.mlp
+Unknown gene tag: CACBP , file: 6_CACBP_1_from_CAC-binding-protein_transfac_M00720-Unknown.mlp
+Unknown gene tag: 1 , file: HMGA1_1_from_HMG-IY_transfac_M00750-A.T_hook_factors.mlp
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/ddba/ddba_integrated_using_mean_ddba.tsv : 1000 mutations,  53 PWMs
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/ddba/ddba_integrated_using_mean_ddba.tsv : 15 mutations,  150 PWMs
+2.9999999999999996
+/cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250
+Remove temporary files in background output: 
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_alt/potential_-20/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/dba_ref/potential_-20/*0
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/background/bayespi_bar_result/parallel_tmp
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/pwm_for_background
+
+
+Remove temporary files in foreground output: 
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_none/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_-10/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_-13/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_-15/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_-18/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_alt/potential_-20/*0
+rm -f /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/dba_ref/potential_-20/*0
+rm -fr /cluster/projects/nn4605k/junbaiw/rrpathology/local/FL_project2019/bayespi_bar_2_alireza/bayes_pi_bar_3.1/to_github/bpb3/final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm/block_0_5_1295205_1295250/parallel_tmp
+
+
+Done with clean temporary files
+Log file: ../../final_demo_data/demo6_skin_cancer_small/bpb3_by_selected_pwm_from_cluster4pwm_bpb3.log_1655994245.4046416
+block_0_5_1295205_1295250 :
+Filtering results by gene expression for block block_0_5_1295205_1295250 ...
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+6021946      demp6-bpb+         12                                             00:12:00      0:0 
+6021946.bat+      batch         12        1   01:13:02          0   01:13:02   00:12:00      0:0 
+6021946.ext+     extern         12        1   00:00:00          0   00:00:00   00:12:00      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+6021946                                                                          
+6021946.bat+    161336K          0    161336K        0              0          0 
+6021946.ext+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+6021946                                                                                               
+6021946.bat+     1314.32M               0       1314.32M      171.61M                0        171.61M 
+6021946.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 6021946 completed at Thu Jun 23 16:29:19 CEST 2022

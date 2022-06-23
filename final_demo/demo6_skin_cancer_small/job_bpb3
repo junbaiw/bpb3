@@ -1,0 +1,30 @@
+#!/bin/csh
+
+#Job name:
+#SBATCH --job-name=demp6-bpb3-skin
+#
+# Project:
+#SBATCH --account=nn4605k
+#
+# Wall clock limit:
+#SBATCH --time=12:00:00
+#
+# Max memory usage:
+#SBATCH --mem-per-cpu=12G 
+###--partition=bigmem
+#
+# Number of cores:
+#SBATCH --cpus-per-task=12
+
+
+#run bpb3 by clustered PWMs from abc4pwm -- first level analysis
+bpb3 run_pipeline --import_bpb3_config bpb3_clusterPWM_config_skin_cancer.py
+
+
+#run bpb3 on selected PWMS from clustered PWMs - second level analysis
+python run_selected_pwms_from_clusterPWM_cmd_skin_cancer.py
+
+
+
+
+
