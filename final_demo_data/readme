@@ -1,0 +1,10 @@
+#extract all compressed files such as *.gz and *.tgz  before running the demos
+Demo3, Demo4, Demo5,Demo7 : chr18
+Demo6: chr5
+
+For example,
+gunzip background_data/signature_7.tsv.gz
+gunzip pwm/*.gz
+gunzip genome_data/hg19/gencode.v19.annotation_small.gtf.gz  
+gunzip genome_data/hg19/human_g1k_v37_decoy_small.fasta.gz
+
