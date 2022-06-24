@@ -55,8 +55,9 @@ file folders: final_demo, final_demo_data
 4. Under final_demo_data, the pwm folder contains 1772 human pwms that were used in papers 1, 2, 3, and 4.
 5. Applications of clustered PWMs in demos 2, 4, and 5 are described in current paper 5.  
 
-[More information about demos in bpb3 package please refer to bpb3 webpage https://bpb3.github.io/bpb3 ](https://bpb3.github.io/bpb3/)
+[More information about demos in bpb3 package please refer to ->  https://bpb3.github.io/bpb3 ](https://bpb3.github.io/bpb3/)
 
+[bpb3 package can be downloaded from -> ](https://github.com/junbaiw/bpb3)
 # End
 
 
