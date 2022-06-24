@@ -61,7 +61,7 @@ final_demo, final_demo_data
 The goal of this demo is to predict putative target transcription factors (TFs) whose binding affinity is affected by the mutation at DNA sequence. In other words, to rank the significance of TF binding affinity changes due to the mutation (e.g., nucleotide polymorphisms -SNPs) in regulatory regions. More description of 67 regulatory SNPs that affect TF binding in this demo is available in paper 1.
 
 **Pipeline**
-![Figure 1. A computational pipeline of the Bayesian method for protein–DNA interaction with binding affinity ranking (BayesPI-BAR). The method is proposed for quantification of the effect of sequence variations on the binding affinity with transcription factors (TFs)](/Users/mingyi/course/R_markdown/data_bpb3/demo1_pipeline.png)
+![Figure 1. A computational pipeline of the Bayesian method for protein–DNA interaction with binding affinity ranking (BayesPI-BAR). The method is proposed for quantification of the effect of sequence variations on the binding affinity with transcription factors (TFs)](https://github.com/junbaiw/bpb3/figures/demo1_pipeline.png)
 
 ## Principle
 Here, a published computational pipeline, a Bayesian method for protein–DNA interaction with binding affinity ranking (BayesPI-BAR), is used to quantify the effect of sequence variations on protein binding. The method includes two new parameters (TF chemical potentials or protein concentrations and differential TF binding affinity) that are not used in the previous application. This method is verified on 67 known human regulatory SNPs, of which 51 (76%) have predicted true TFs ranked in the top 10.
