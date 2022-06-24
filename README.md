@@ -23,7 +23,7 @@ knitr::opts_chunk$set(engine.path = list(python = '/Users/mingyi/opt/anaconda3/b
 ```{bash,  echo=T}
 # tar -zxf bpb3.tgz
 # cd bpb3
-# in path: /cluster/projects/nn4605k/mingyi/bpb3_package/bpb3
+# move path to bpb3 fold, e.g: /cluster/projects/acount/user/bpb3_package/bpb3
 # python setup.py install
 ```
 
