@@ -57,7 +57,7 @@ file folders: final_demo, final_demo_data
 
 [More information about demos in bpb3 package please refer to ->  https://bpb3.github.io/bpb3 ](https://bpb3.github.io/bpb3/)
 
-[bpb3 package can be downloaded from -> ](https://github.com/junbaiw/bpb3)
+[bpb3 package can be downloaded from -> https://github.com/junbaiw/bpb3 ](https://github.com/junbaiw/bpb3)
 # End
 
 
