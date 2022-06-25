@@ -40,7 +40,7 @@ file folders: final_demo, final_demo_data
 ## Functions
 Type "bpb3 --help" to list functions in bpb3 package.
 
-```python
+```{bash}
 bpb3 --help
 usage:  bpb3 <task> [<args>]
 
