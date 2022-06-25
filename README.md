@@ -40,7 +40,7 @@ file folders: final_demo, final_demo_data
 ## Functions
 Type "bpb3 --help" to list functions in bpb3 package.
 
-'''python
+```python
 bpb3 --help
 usage:  bpb3 <task> [<args>]
 
@@ -70,7 +70,6 @@ usage:  bpb3 <task> [<args>]
          filterDEG4bpb3         Filter bpb3 exported differential expression gene list by rratios. (demo)
          preprocess_icgc_data   Preprocess of ICGC data such as a folder contains files donor_*, specimen, simple_somatic*, exp_seq.tsv et al. (demo)
      
-
 BayesPI-BAR in Python3 - bpb3
 
 positional arguments:
@@ -78,9 +77,7 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
-
-
-'''
+```
 
 ## BPB3 Demos and User Guide
 
