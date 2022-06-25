@@ -22,8 +22,8 @@ knitr::opts_chunk$set(engine.path = list(python = '/Users/junbai/miniconda3/bin/
 ```
 -->
 
-# Install package BPB3    
-## Download package and unzip
+# Install BPB3 package 
+## Download and unzip package
 
 ```{bash,  echo=T}
 # tar -zxf bpb3.tgz
