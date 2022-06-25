@@ -1,4 +1,3 @@
----
 <!-- 
 [comment]: <> (title: 'BPB3: BayesPI-BAR version 3 package User Guide')
 [comment]: <> (author: "Junbai Wang, Mingyi Yang, Magnar Bjoras, ...")
@@ -8,6 +7,7 @@
 [comment]: <> (    df_print: paged )
 [comment]: <> (  word_document: default)
 -->
+---
 # BPB3: BayesPI-BAR version 3 User Guide
 ---
 
