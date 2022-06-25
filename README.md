@@ -1,15 +1,17 @@
 ---
-title: 'BPB3: BayesPI-BAR version 3 package User Guide'
+<!--title: 'BPB3: BayesPI-BAR version 3 package User Guide'
 #author: "Junbai Wang, Mingyi Yang, Magnar Bjoras, ..."
 #date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
     df_print: paged
   word_document: default
+-->
+# BPB3: BayesPI-BAR version 3 User Guide
 ---
 
 <!--- R markdown set up --->
-```{r setup, include=T, echo=FALSE, error=T, message=F}
+<!-- ```{r setup, include=T, echo=FALSE, error=T, message=F}
 knitr::opts_chunk$set(echo = TRUE)
 library(rmarkdown)
 library(stargazer)
@@ -17,6 +19,7 @@ library(reticulate)
 reticulate::use_python("/Users/junbai/miniconda3/bin//python")
 knitr::opts_chunk$set(engine.path = list(python = '/Users/junbai/miniconda3/bin//python'))
 ```
+-->
 
 # Install package BPB3    
 ## Download package and unzip
