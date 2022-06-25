@@ -1,12 +1,11 @@
 ---
-<!--title: 'BPB3: BayesPI-BAR version 3 package User Guide'
-#author: "Junbai Wang, Mingyi Yang, Magnar Bjoras, ..."
-#date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
-    df_print: paged
-  word_document: default
--->
+[comment]: <> (title: 'BPB3: BayesPI-BAR version 3 package User Guide')
+[comment]: <> (author: "Junbai Wang, Mingyi Yang, Magnar Bjoras, ...")
+[comment]: <> (date: "`r format(Sys.time(), '%d %B, %Y')`" )
+[comment]: <> (output: )
+[comment]: <> (  html_document: )
+[comment]: <> (    df_print: paged )
+[comment]: <> (  word_document: default)
 # BPB3: BayesPI-BAR version 3 User Guide
 ---
 
