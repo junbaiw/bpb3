@@ -39,7 +39,7 @@ knitr::opts_chunk$set(engine.path = list(python = '/Users/junbai/miniconda3/bin/
 Type "bpb3 --help" to list tasks in bpb3 package.
 Then type "bpb3 <task> --help" to display help of each task.
 ````
-\
+
 ```
 bpb3 --help
 usage:  bpb3 <task> [<args>]
