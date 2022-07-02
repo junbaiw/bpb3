@@ -34,9 +34,12 @@ knitr::opts_chunk$set(engine.path = list(python = '/Users/junbai/miniconda3/bin/
 # python setup.py install
 ```
 
-## Functions
-Type "bpb3 --help" to list functions in bpb3 package.
-
+## Tasks
+```
+Type "bpb3 --help" to list tasks in bpb3 package.
+Then type "bpb3 <task> --help" to display help of each task.
+````
+\
 ```
 bpb3 --help
 usage:  bpb3 <task> [<args>]
@@ -86,6 +89,13 @@ usage:  bpb3 <task> [<args>]
 
  optional arguments:
   -h, --help  show this help message and exit
+```
+
+## Parallel options
+```
+Run bpb3 in a local computer with multiple processes: only needs four lines, "--user_cores", number of cores, "--max_nodes", and maximum number of nodes in "parallel_options.txt".
+
+Run bpb3 in slurm:  add three new lines "--use_slurm" , "--slurm_account" , and slurm account name in "parallel_options.txt".
 ```
 
 ## BPB3 Demos and User Guide
