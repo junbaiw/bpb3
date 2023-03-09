@@ -21,6 +21,7 @@ class Main(object):
          make_cluster4pwm	Make input PWM files for bpb3 based on clustered PWMs.
          bpb3selectedPWM	The second level analysis of bpb3 by using the top PWMs in TF ranking after the first level analysis of bpb3 based on the clustered PWMs. 
          run_pipeline		Run full bpb3 pipeline (e.g., the first level analysis of bpb3 if clustered PWMs are used in the calculation).
+         compute_mutation_score	Compute mutation score for a SNP/mutation block based on top N ranked TFs with either positive or negative binding affinity changes
 	 clean_tmp		Clean temporary files from output folders.
 
      Tasks available for demo purpose:
@@ -169,6 +170,12 @@ class Main(object):
                "The second level analysis of bpb3, which evaluates the top N PWMs from the ranking test of the first analysis, can be achieved by function bpb3selectedPWM."))
       run(parser.parse_args(sys.argv[2:]))
  
+  def compute_mutation_score(self):
+      from .script.compute_mutation_score import my_parser, run
+      parser = my_parser(argparse.ArgumentParser(prog='bpb3 compute_mutation_score',
+               description="Compute mutaiton score for SNPs or mutation scores based on the top N ranked TFs, where both positive and negative TF binding affinity changes are considered. "))
+      run(parser.parse_args(sys.argv[2:]))
+
   def make_cluster4pwm(self):
       from .script.script_high.other.make_cluster4pwm import my_parser, run
       parser = my_parser(argparse.ArgumentParser(prog='bpb3 make_cluster4pwm',
