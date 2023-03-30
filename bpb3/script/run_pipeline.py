@@ -415,7 +415,7 @@ def run(args):
                    " --min_block_size " + str(min_block_size) +  " \\\n\t" + \
                    " --cluster_distance " + str(cluster_distance) +  " \\\n\t" + \
                    " --block_distance " + str(block_distance) + "\\\n\t" + \
-                   " --regions " + regions_file
+                   (" --regions " + regions_file if regions_file is not None else "")
      #mussd_command_file=os.path.join(out_data_folder, 'run_mussd.sh')
      with open(mussd_command_file,'w') as f:
        f.write(cmd_head + "\n" + cmd + "\n")
