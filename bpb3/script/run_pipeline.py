@@ -462,9 +462,14 @@ def run(args):
  else:
    logging.info("Skip Step 4: selecting highly mutated blocks")
 
- significant_block_tags = frozenset(common.read_lines(significant_blocks_file))
- logging.info("%d blocks have significantly more mutations than expected: %s", len(significant_block_tags),
+ #jbw 2023
+ if os.path.isfile(significant_blocks_file):
+   significant_block_tags = frozenset(common.read_lines(significant_blocks_file))
+   logging.info("%d blocks have significantly more mutations than expected: %s", len(significant_block_tags),
                  ", ".join(significant_block_tags))
+ else:
+   logging.info("No significant mutation block file: %s ", significant_blocks_file)
+   logging.info("Cannot run the rest of analysis steps !!")
 
  # 5. Compute foreground for each significant block
  logging.info("")
@@ -625,7 +630,9 @@ def run(args):
                      filtered_result_file)
  else:
    logging.info("Skip Step 8: filtering TF by gene expression ")
-   for block_tag in significant_block_tags:
+   #jbw 2023
+   if os.path.isfile(significant_blocks_file):
+     for block_tag in significant_block_tags:
         block_folder = os.path.join(foreground_folder, block_tag)
         result_file = os.path.join(block_folder, "result.tsv")
         filtered_result_file = os.path.join(block_folder, "result_filtered.tsv")
