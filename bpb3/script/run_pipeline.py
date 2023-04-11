@@ -296,7 +296,7 @@ def run(args):
  logging.info("")
  logging.info("If the pipeline is interrupted at any point, simply restart it to continue the computations")
  logging.info("Pipeline parameters:")
- logging.info("\tDifferential gene expression: value is %s%s%sRPKM, P value for KS test: %g, minimum %sRPKM fold "
+ logging.info("\tDifferential gene expression: value is %s%s%sRPKM, P value for significant difference: %g, minimum %sRPKM fold "
               "change: %s", "z-score transformed " * differential_expression_z_score_transform,
                "log-transformed " * differential_expression_log_transform,
                "quantile normalized " * differential_expression_quantile_normalization, differential_expression_p,
