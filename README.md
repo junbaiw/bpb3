@@ -120,7 +120,7 @@ file folders: final_demo, final_demo_data
 
 4. Farooq A, Trøen G, Delabie J, Wang J. Integrating whole genome sequencing, methylation, gene expression, topological associated domain information in regulatory mutation prediction: A study of follicular lymphoma. Comput Struct Biotechnol J. 2022 Mar 23;20:1726-1742. [Link of Paper 4](https://www.sciencedirect.com/science/article/pii/S2001037022000976)   
 
-5. Reference to our current paper where clustered PWMs are used ………
+5. Mingyi Yang, Omer Ali, Magnar Bjørås, Junbai Wang. Identifying Functional Regulatory Mutation Blocks by Integrating Genome Sequencing and Transcriptome Data. iScience 2023 July 2. [link of Paper 5] (https://doi.org/10.1016/j.isci.2023.107266)
 
 
 ## Notes
