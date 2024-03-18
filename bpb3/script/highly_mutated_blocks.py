@@ -28,7 +28,10 @@ def my_parser(parser):
     #added jbw
     optional.add_argument("--correctPval", help="Whether adjust P-values by bonferroni correction, default is True, if use False then this option will be turned off for correction",
                          action="store_true")
+    optional.add_argument("--useRegionCounts", help="Whether use block counts or region counts to calculate expected probability that mutation falls in a certain region. Default=block counts", action="store_true")
+    optional.add_argument("--useMutationsInRegions",help="Whether use mutations in regions or mutations in blocks to do bionormal test. Default=mutations in bĺocks", action="store_true")
     #optional.add_argument("-h", "--help", action="help", help="show this help message and exit")
+
 
 #    args = parser.parse_args()
 #except IOError as err:
@@ -52,13 +55,14 @@ def run(args):
 
  info = dict(common.transpose_list(common.read_tsv(muts_file)))
  #added by wang 2021 feb
- if 'regions_count' not in info.keys():
+ if ('regions_count' not in info.keys()) | (not args.useRegionCounts):
    print('no regions_count but use blocks_count instead!')
    regions_count=int(info['blocks_count'])
  else:
    regions_count = int(info["regions_count"])
 
- if 'mutations_in_regions' not in info.keys():
+  #added jbw 2024
+ if ('mutations_in_regions' not in info.keys()) | (not args.useMutationsInRegions):
    print('no mutations_in_regions but use mutations_in_blocks instead!')
    mutations_in_regions= int(info['mutations_in_blocks'])
  else:
@@ -72,24 +76,22 @@ def run(args):
    print("No blocks find in , ", blocks_file, ' program exit' )
    exit(1)
  num_muts = map(int, blocks_data[4])
+ list2num_muts=list(num_muts)
+ p_vals_corrected=[]
  expected_probability_that_mutation_falls_in_a_certain_region = 1.0 / regions_count
  #added jbw
  if is_correctPval:
     print('Adjust P-values by Bonferroni correction in high mutation blocks test')
-    #print(list(num_muts),  mutations_in_regions, expected_probability_that_mutation_falls_in_a_certain_region)
-    p_vals_corrected = [scipy.stats.binom_test(n, mutations_in_regions,
-                                           expected_probability_that_mutation_falls_in_a_certain_region) * regions_count
-                    for n in list(num_muts)]
+    #print( mutations_in_regions, expected_probability_that_mutation_falls_in_a_certain_region, regions_count)
+    p_vals_corrected = [scipy.stats.binom_test(ni, mutations_in_regions,  expected_probability_that_mutation_falls_in_a_certain_region)*regions_count for ni in list2num_muts]
     np_val=np.array(p_vals_corrected)
     np_val[np_val>1]=1
     p_vals_corrected=list(np_val)
  else:
     print('No P-value correction is applied in high mutation blocks test')
-    p_vals_corrected = [scipy.stats.binom_test(n, mutations_in_regions,
-                                           expected_probability_that_mutation_falls_in_a_certain_region) 
-                    for n in num_muts] 
+    p_vals_corrected = [scipy.stats.binom_test(ni, mutations_in_regions, expected_probability_that_mutation_falls_in_a_certain_region)  for ni in list2num_muts]
+    
 
- #print(p_vals_corrected, regions_count)
  for i in range(len(p_vals_corrected)):
     if p_vals_corrected[i] < args.p_value:
         args.output_file.write(blocks_data[0][i] + "\n")

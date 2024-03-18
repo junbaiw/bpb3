@@ -16,4 +16,5 @@ Notes:
 3) Demo7 was similar to the calculation in paper 4, but the 14 FL samples were replaced by an independent FL cohort from papers 2 and 3.
 4) Under final_demo_data, the pwm folder contains 1772 human pwms that were used in papers 1, 2, 3, and 4.
 
+python -m pip install -e .
 
