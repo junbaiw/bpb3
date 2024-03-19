@@ -136,6 +136,16 @@ def run(args):
    logging.info('Default False p-value correction in significant mutation blocks test')
    pval_correction=False
  mussd_command_file=  bpb3_config.mussd_command_file
+ #jbw 2024
+ if hasattr(bpb3_config,'use_Region_Counts'):
+    use_Region_Counts=bpb3_config.use_Region_Counts
+ else:
+    use_Region_Counts=False
+ #jbw 2024
+ if hasattr(bpb3_config,'use_Mutations_In_Regions'):
+    use_Mutations_In_Regions=bpb3_config.use_Mutations_In_Regions
+ else:
+    use_Mutations_In_Regions=False
 
  #patient_mut_files = bpb3_config.patient_mut_files
  patient_mut_files=glob.glob(os.path.join(patient_data_folder,bpb3_config.patient_mut_files_postprefix))
@@ -448,11 +458,13 @@ def run(args):
  logging.info("")
  if runHighMutBlocks:
    logging.info("Step 4: Selecting blocks that are mutated more than average")
-
+   #jbw 2024
    result_code = os.system("bpb3 highly_mutated_blocks " +
                             " --blocks_folder " + mussd_result_folder +
                             " --p_value " + str(p_value_for_significant_blocks) + 
                             " --output_file " + significant_blocks_file +
+                            " --useRegionCounts " *  use_Region_Counts +
+                            " --useMutationsInRegions " * use_Mutations_In_Regions +
                             " --correctPval " * pval_correction ) 
    if result_code !=0:
        logging.info("Error in highly mutated blocks ")
