@@ -28,7 +28,8 @@ knitr::opts_chunk$set(engine.path = list(python = '/Users/junbai/miniconda3/bin/
 # Install BPB3 package 
 #
 # Please send email to Dr. Junbai Wang (junbai.wang@medisin.uio.no) for requesting a free download of bpb3 pacakge. 
-##Please include your name, Institution/company name, Email of your institute or company (do not use gmail or yahoo email etc), and a brief description of the purpose for using bpb3 package.
+#
+##  Please include your name, Institution/company name, Email of your institute or company (do not use gmail or yahoo email etc), and a brief description of the purpose for using bpb3 package.
 ##  Please use the subject title "bpb3 request "  for your email.
 #
 ## Download and unzip package
