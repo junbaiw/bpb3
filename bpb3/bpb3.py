@@ -1,6 +1,7 @@
 import argparse
 import sys
 #author Junbai Wang September 2021
+import os
 
 class Main(object):
   def __init__(self):
@@ -210,6 +211,8 @@ class Main(object):
 
 def main():
   Main()
+  #jbw 2025
+  os._exit(os.EX_OK)
 
 if __name__== '__main__':
   Main()
